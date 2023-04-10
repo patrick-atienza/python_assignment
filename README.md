@@ -35,7 +35,7 @@ Platform for shipping and deploying applications.
 4. Auto-generated FastAPI API documentation `http://localhost:8080/docs`
 5. Once finished, execute the following command:
    ```commandline
-   docker-compose up --build app
+   docker-compose down
    ```
 
 ## How to maintain the Alpha Vantage API Key
