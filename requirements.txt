@@ -1,0 +1,8 @@
+fastapi==0.95.0
+peewee==3.16.0
+peewee_async==0.8.0
+pydantic==1.10.7
+python-dotenv==1.0.0
+requests==2.28.2
+trio==0.22.0
+uvicorn==0.21.1

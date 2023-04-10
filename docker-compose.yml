@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - DATABASE_URL=sqlite3:///financial_data.sqlite3
+    volumes:
+      - ./financial_data.sqlite3:/app/financial_data.sqlite3
