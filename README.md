@@ -14,7 +14,7 @@ Dependency management tool
 
 ### SQLite
 
-Simple database engine
+Simple database engine. An OLAP database (e.g. Clickhouse) can be more powerful in this scenario since the service is dealing with historical data.
 
 ### peewee
 
